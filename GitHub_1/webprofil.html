@@ -3,62 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Marathon ILC</title>
     <link rel="stylesheet" href="webprofil.css">
 </head>
 <body>
     <header>
         <h1>ILC</h1>
-        <h2>INFORMATICS LEARNING COMMUNITY</h2>
-        <H3>UPN VETERAN JAWA TIMUR</H3>
+        <h5>INFORMATICS LEARNING COMMUNITY</h2>
+        <h5>UPN VETERAN JAWA TIMUR</H3>
     </header>
     <nav>
         <li><a href="#profile">profil</a></li>
         <li><a href="#kegiatan">kegiatan</a></li>
         <li><a href="#registrasi">registrasi</a></li>
     </nav>
-    <main>
-        <article class="profile">
+    <!-- <div class="container"> -->
+  <div class="row">
+    <div class="col-left">
+        <div class="profil" id="profil">
             <h2 id="profile">Profile</h2>
-            <img src="ilcIG.png" alt="">
+            <img src="img/ilcIG.png" alt="">
             <p>Komunitas ILC (Informatics Learning Club) yang didirikan oleh di Fakultas Ilmu Komputer (Fasilkom) UPN Veteran Jawa Timur, bertujuan menjadi tempat belajar bersama para mahasiswa Fasilkom. Dengan fokus pada pengembangan web, kami menyediakan berbagai kesempatan belajar, mulai dari program bootcamp hingga webinar yang informatif, untuk membantu mahasiswa memperluas pengetahuan dan keterampilan dalam dunia teknologi
             </p>
-        </article>
-    </main>
-    <main>
-        <article class="kegiatan">
+        </div>
+        <div class="kegiatan" id="kegiatan">
             <h2 id="kegiatan">kegiatan</h2>
-        <img src="event.jpg" alt="">
+        <img src="img/event.jpg" alt="">
         <p>Kegiatan ILC (Informatics Leraning Club) memiliki berbagai pilihan, mulai dari Bootcamp, Web Development, Web Umum yang terbuka untuk semua, Webinar Khusus untuk anggota dan tanya jawab (QNA) seputar Web Development, dan banyak lagi kami berusaha untuk menyediakan berbagai jenis kegiatan yang dapat memenuhi kebutuhan dan minat berbagai peserta kami.</p>
-        </article>
-        
-
-    </main>
-    <main>
-        <article class="registrasi">
+        </div>
+        <div class="registrasi">
             <h2 id="registrasi">Registrasi</h2>
-            <h3>form register</h3>
-            <label>Email</label>
-    <input type="email">
-    <br><br>
-    <label>Pasword</label>
-    <input type="password">
-    <br><br>
-    <label>Foto Profile</label>
-    <input type="file"></input>
-    <br><br>
-    <label>Tanggal Lahir</label>
-    <input type="datetime-local">
-    <br><br>
-    <label>Gender</label>
-    <select name="Gender" id="Gender">
-    <option value="Male">Male</option>
-    <option value="Female">Female</option>
-    
-    </select>
-    <br><br>
-    <button type="submit">submit</button>
-        </article>
-    </main>
+            <div class="row">
+                <div class="kiri">
+                    <h3>form register</h3>
+                    <label>Email</label>
+                    <input type="email">
+                    <br><br>
+                    <label>Pasword</label>
+                    <input type="password">
+                    <br><br>
+                    <label>Foto Profile</label>
+                    <input type="file"></input>
+                    <br><br>
+                    <label>Tanggal Lahir</label>
+                    <input type="datetime-local">
+                    <br><br>
+                    <label>Gender</label>
+                    <select name="Gender" id="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    </select>
+                    <br><br>
+                    <button type="submit">submit</button>
+                </div>
+                <div class="kanan">
+                    <img src="img/Logo-ILC.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-right"> 
+        <div class="logo">
+          <h2>Logo Ilc</h2>
+          <p>Informatics Learning Community</p>
+          <img src="img/Logo-ILC.png" alt="">
+          <h3 style="color: #00c8ea;">Informasi</h3>
+          <div class="row-right">
+            <div class="col">
+              <ul>
+                <li><strong>Universitas</strong></li>
+                <li><strong>Tahun Berdiri</strong></li>
+                <li><strong>Total Anggota</strong></li>
+                <li><strong>Ketua</strong></li>
+                <li><strong>Email</strong></li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul>
+                <li>UPN Veteran Jatim</li>
+                <li>2019</li>
+                <li>100</li>
+                <li>Ahmad Hilman Dhani</li>
+                <li>ilcupnjatim@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </body>
+  
+  </html>
 </body>
 </html>
